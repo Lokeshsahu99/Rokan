@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ROKAN Shoping Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.5/font/bootstrap-icons.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Css.css">
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">ROKAN</a>
+
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Links -->
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">Home</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/About.html">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Shop</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Category 1</a></li>
+                            <li><a class="dropdown-item" href="#">Category 2</a></li>
+                        </ul>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="/contact.html">Contact Us</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">Blogs</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                            <li><a class="dropdown-item" href="#">Blog 2</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+
+                <!-- Icons inside the collapsible section -->
+                <ul class="d-flex align-items-center justify-content-center flex-wrap flex-lg-nowrap ">
+                    <li class="nav-item ms-3">
+                        <a class="nav-link text-white" href="#"><i class="bi bi-search"></i></a>
+                    </li>
+                    <li class="nav-item ms-3">
+                        <a class="nav-link text-white" href="#"><i class="bi bi-person"></i></a>
+                    </li>
+                    <li class="nav-item ms-3 position-relative">
+                        <a class="nav-link text-white" href="#">
+                            <i class="bi bi-heart"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                        </a>
+                    </li>
+                    <li class="nav-item ms-3 position-relative">
+                        <a class="nav-link text-white" href="#">
+                            <i class="bi bi-bag"></i>
+                            <span
+                                class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero section  start-->
+    <!-- <div class="container-fluid"> -->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active text-start">
+                <img src="./images/fsr_s1.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h1>Lifestyle inspiration</h1>
+                    <p>Inspire your customers by illustrating a sophisticated lifestyle <br>
+                        made possible through their purchases on your website.</p>
+                    <button type="button" class="btn btn-outline-light d-block">DISCOVER COLLECTION</button>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/fsr_s2.webp" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block text-start">
+                    <h1>Timeless Essence</h1>
+                    <p>Explore classic pieces with modern touches, designed for <br>
+                        a sophisticated wardrobe that never goes out of style.</p>
+                    <button type="button" class="btn btn-outline-light d-block">DISCOVER COLLECTION</button>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- </div> -->
+    <br>
+
+
+    <!-- hero section end -->
+
+
+    <!-- Top Collections start -->
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col mx-auto text-center ">
+                <h3 class="fw-bold"> Top Collections</h3>
+                <p>Express your style with our standout collection—fashion meets sophistication.</p>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-3 col-md-4 col-sm-12 ">
+                <div class="card overflow-hidden rounded-2">
+                    <img src="./images/fsr_clt1.webp" class="card-img card-img-top" alt="...">
+                    <button type="button" class="btn btn-light card-btn"> Sweaters(18)</button>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="card overflow-hidden  rounded-2">
+                    <img src="./images/fsr_clt2 (1).webp" class="card-img card-img-top" alt="...">
+                    <button type="button" class="btn btn-light card-btn"> Top T-shirt(18)</button>
+
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="card overflow-hidden rounded-2">
+                    <img src="./images/fsr_clt3.webp" class="card-img card-img-top" alt="...">
+                    <button type="button" class="btn btn-light card-btn"> Top Dresses(18)</button>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-12">
+                <div class="card overflow-hidden rounded-2">
+                    <img src="./images/fsr_clt4.webp" class="card-img card-img-top" alt="...">
+                    <button type="button" class="btn btn-light card-btn"> Shirts(18)</button>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <br>
+    <!-- Top Collections end -->
+    <br>
+    <div class="container-fluid">
+        <div class="row off ">
+            <div class="col-lg-8 p-2 ">
+                <div class="offer1 overflow-hidden rounded-2">
+                    <div class="offer2-text align-items-center text-center mt-5">
+                        <p class="mb-2">
+                            SAVE 30%-50% CLOTHING
+                        </p>
+                        <h3 class="mb-3">High-Top Design</h3>
+                        <p>In-store! Limited time offer.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 p-2 ">
+                <div class="offer2 overflow-hidden rounded-2 ">
+                    <div class="offer2-text align-items-center text-center mt-5">
+                        <p>
+                            SAVE 30%-50% BLAZERS
+                        </p>
+                        <h3>Colour Spotlight</h3>
+                        <p>In-store! Limited time offer.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Our Bestsellers -->
+    <div class="container-fluid">
+        <div class="container-fluid my-5">
+            <div class="row justify-content-center">
+                <div class="col mx-auto text-center">
+                    <h1 class="fw-bold"> Our Bestsellers</h1>
+                    <p>Unmatched design—superior performance and customer satisfaction in one.</p>
+                </div>
+            </div>
+            <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#cardCarousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+                <!-- Carousel Content -->
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="container-fluid">
+                            <div class="row row-cols-1 row-cols-md-3 g-4 ">
+                                <div class="col-lg-3 col-md-6 border-0">
+                                    <div class="card h-100 rounded-2 ">
+                                        <div class="best1 Bestsellers">
+                                            <img src="./images/fashion_products_20_3.webp" class="card-img-top"
+                                                alt="Sweaters">
+                                            <span class="offer-badge">Pre-Order</span>
+                                            <div class="wishlist-icon">&#9825;</div>
+                                            <button type="button" class="btn btn-outline-light mt-2 w-50 "> <i
+                                                    class="bi bi-bag p-2"></i> Add to Card</button>
+                                        </div>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title">Long Sleeve Shirts</h5>
+                                            <p>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                            </p>
+                                            <p class="card-text">$210.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card h-100 rounded-2 ">
+                                        <div class="best2 Bestsellers ">
+                                            <img src="./images/fashion_products_16_2_301fd34b-9f93-4ed5-9f7d-2a0181a4e735.webp"
+                                                class="card-img-top" alt="Top T-shirt">
+                                            <span class="offer-badge">Limited Time</span>
+                                            <div class="wishlist-1">
+                                                <span class="wishlist-icon ">&#9825;</span>
+                                            </div>
+
+                                            <button type="button" class="btn btn-outline-light mt-2 w-50 "> <i
+                                                    class="bi bi-bag p-2"></i>Add to Card</button>
+                                        </div>
+
+
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title">Wrapover Shirt Dress</h5>
+                                            <p>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                            </p>
+                                            <p class="card-text">$145.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card h-100 rounded-2">
+                                        <div class=" best3 Bestsellers">
+                                            <img src="./images/fashion_products_5_6.webp" class="card-img-top"
+                                                alt="Top Dresses">
+                                            <span class="offer-badge discount">-19% </span>
+                                            <div class="wishlist-icon">&#9825;</div>
+                                            <button type="button" class="btn btn-outline-light mt-2 w-50 ">Add to
+                                                card</button>
+                                        </div>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title">Stand-up Collar Blouse</h5>
+                                            <p>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                            </p>
+                                            <p class="card-text">$130.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card h-100 rounded-2 ">
+                                        <div class="best4 Bestsellers">
+                                            <img src="./images/fashion_products_19_7.webp" class="card-img-top"
+                                                alt="Shirts">
+                                            <span class="offer-badge discount"> Limited Time </span>
+                                            <div class="wishlist-icon">&#9825;</div>
+                                            <button type="button" class="btn btn-outline-light w-50 ">Add to
+                                                Card</button>
+                                        </div>
+                                        <div class="card-body text-start">
+                                            <h5 class="card-title">Polo-neck Body Dress</h5>
+                                            <p>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                                <i class="bi bi-star"></i>
+                                            </p>
+                                            <p class="card-text">$240.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card  h-100 rounded-2 ">
+                                    <div class="best5 Bestsellers">
+                                        <img src="./images/fashion_products_7_3.webp" class="card-img-top"
+                                            alt="Product 5">
+                                        <span class="offer-badge">Limited Time</span>
+                                        <span class="wishlist-icon">&#9825;</span>
+                                        <button type="button" class="btn btn-outline-light mt-2 w-50 ">Shirts
+                                            (18)</button>
+                                    </div>
+                                    <div class="card-body text-start">
+                                        <h5 class="card-title">Polo-neck Body Dress</h5>
+                                        <p>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </p>
+                                        <p class="card-text">$240.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card  h-100 rounded-2 ">
+                                    <div class="best6 Bestsellers">
+                                        <img src="./images/fashion_products_14_7.webp" class="card-img-top"
+                                            alt="Product 6">
+                                        <span class="offer-badge">Limited Time</span>
+                                        <span class="wishlist-icon">&#9825;</span>
+                                        <button type="button" class="btn btn-outline-light mt-2 w-50 ">Shirts
+                                            (18)</button>
+                                    </div>
+                                    <div class="card-body text-start">
+                                        <h5 class="card-title">Polo-neck Body Dress</h5>
+                                        <p>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </p>
+                                        <p class="card-text">$240.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card  h-100 rounded-2 ">
+                                    <div class="best7 Bestsellers">
+                                        <img src="./images/fashion_products_22_10.webp" class="card-img-top"
+                                            alt="Product 7">
+                                        <button type="button" class="btn btn-outline-light mt-2 w-50 ">Shirts
+                                            (18)</button>
+                                    </div>
+                                    <div class="card-body text-start">
+                                        <h5 class="card-title">Polo-neck Body Dress</h5>
+                                        <p>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </p>
+                                        <p class="card-text">$240.00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <!-- Card Container -->
+                                <div class="card h-100 rounded-2 ">
+                                    <div class=" best8 Bestsellers">
+                                        <!-- Product Image -->
+                                        <span class="offer-badge">Limited Time</span>
+                                        <span class="wishlist-icon">&#9825;</span>
+                                        <img src="./images/fashion_products_11_3.webp" class="card-img-top"
+                                            alt="Product 7">
+                                        <button type="button" class="btn btn-outline-light mt-2 w-50 ">Shirts
+                                            (18)</button>
+                                    </div>
+                                    <!-- Card Body -->
+
+                                    <div class="card-body text-start">
+                                        <h5 class="card-title">Polo-neck Body Dress</h5>
+                                        <p>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                            <i class="bi bi-star"></i>
+                                        </p>
+                                        <p class="card-text">$240.00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                    <!-- </div>
+    </div> -->
+
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Bestsellers -->
+
+
+
+
+
+
+
+
+    <!-- Redefine Elegance -->
+    <div class="container-fluid">
+        <div class="row off-2 ">
+            <div class="col-lg-6 p-2 ">
+                <div class="offer3 ">
+
+                    <h3>Redefine Elegance</h3>
+                    <p>Explore fashion that seamlessly combines Classic <br>
+                        silhouettes with contemporary flair.</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6 p-2 ">
+                <div class="offer4">
+
+                    <h3>Beyond Basics</h3>
+                    <p>transform your wardobe with versatile staples designed <br>
+                        to make a statement, from day tonight.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Redefine Elegance -->
+
+
+
+
+
+
+    <div class="container-fluid">
+
+        <div class="container-fluid my-5">
+
+            <div class="row justify-content-center">
+                <div class="col mx-auto text-center">
+                    <h1 class="fw-bold"> Trending Outfits</h1>
+                    <p>Unmatched design—superior performance and customer satisfaction in one.</p>
+                </div>
+
+            </div>
+            <div id="cardCarousel1" class="carousel slide" data-bs-ride="carousel">
+                <!-- Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#cardCarousel1" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#cardCarousel1" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+
+                <!-- Carousel Content -->
+                <div class="carousel-inner">
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <div class="container-fluid">
+                            <div class="row row-cols-1 row-cols-md-3 g-4">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card h-100 rounded-2 ">
+                                        <div class="best1 Bestsellers">
+                                            <img src="./images/fashion_products_20_3.webp" class="card-img-top"
+                                                alt="Sweaters">
+                                            <button type="button" class="btn btn-outline-light mt-2">Sweaters
+                                                (18)</button>
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Comfortable Sweaters</h5>
+                                            <p class="card-text">$180.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card h-100 rounded-2 ">
+                                        <div class="best2 Bestsellers ">
+                                            <img src="./images/fashion_products_16_2_301fd34b-9f93-4ed5-9f7d-2a0181a4e735.webp"
+                                                class="card-img-top" alt="Top T-shirt">
+                                            <button type="button" class="btn btn-outline-light mt-2">Top T-shirt
+                                                (18)</button>
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Comfortable Sweaters</h5>
+                                            <p class="card-text">$180.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card h-100 rounded-2">
+                                        <div class=" best3 Bestsellers">
+                                            <img src="./images/fashion_products_5_6.webp" class="card-img-top"
+                                                alt="Top Dresses">
+                                            <button type="button" class="btn btn-outline-light mt-2">Top Dresses
+                                                (18)</button>
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Comfortable Sweaters</h5>
+                                            <p class="card-text">$180.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="card h-100 rounded-2 ">
+                                        <div class="best4 Bestsellers">
+                                            <img src="./images/fashion_products_19_7.webp" class="card-img-top"
+                                                alt="Shirts">
+                                            <button type="button" class="btn btn-outline-light">Shirts
+                                                (18)</button>
+                                        </div>
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Comfortable Sweaters</h5>
+                                            <p class="card-text">$180.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card  h-100 rounded-2 ">
+                                    <div class="best5 Bestsellers">
+                                        <img src="./images/fashion_products_7_3.webp" class="card-img-top"
+                                            alt="Product 5">
+                                        <button type="button" class="btn btn-outline-light mt-2">Shirts
+                                            (18)</button>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Comfortable Sweaters</h5>
+                                        <p class="card-text">$180.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card  h-100 rounded-2 ">
+                                    <div class="best6 Bestsellers">
+                                        <img src="./images/fashion_products_14_7.webp" class="card-img-top"
+                                            alt="Product 6">
+                                        <button type="button" class="btn btn-outline-light mt-2">Shirts
+                                            (18)</button>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Sporty Hoodies</h5>
+                                        <p class="card-text">$110.00</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="card  h-100 rounded-2 ">
+                                    <div class="best7 Bestsellers">
+                                        <img src="./images/fashion_products_22_10.webp" class="card-img-top"
+                                            alt="Product 7">
+                                        <button type="button" class="btn btn-outline-light mt-2">Shirts
+                                            (18)</button>
+                                    </div>
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Classic Pants</h5>
+                                        <p class="card-text">$90.00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6">
+                                <!-- Card Container -->
+                                <div class="card h-100 rounded-2 ">
+                                    <div class=" best8 Bestsellers">
+                                        <!-- Product Image -->
+                                        <img src="./images/fashion_products_11_3.webp" class="card-img-top"
+                                            alt="Product 7">
+                                        <button type="button" class="btn btn-outline-light mt-2">Shirts
+                                            (18)</button>
+                                    </div>
+                                    <!-- Card Body -->
+
+                                    <div class="card-body text-center rating">
+                                        <h5 class="card-title">Classic Pants</h5>
+                                        <p class="card-text">$90.00</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!-- </div> -->
+                    </div>
+                    <!-- </div>
+    </div> -->
+
+
+                    <!-- Controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel1"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel1"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid p-0">
+        <div class="cont-img vh-75 d-flex justify-content-center align-items-center">
+            <div class="coundown-time text-white">
+                <p class="text-uppercase fw-bold">Deal of the Week</p>
+                <h1>One-Time Only</h1>
+                <p>Explore our latest considered collection for the new season.</p>
+                <div id="countdown">
+                    <ul class="d-flex flex-wrap">
+                        <li>
+                            <span id="days">330</span>days
+                        </li>
+                        <li>
+                            <span id="hours">18</span>Hours
+                        </li>
+                        <li>
+                            <span id="minutes">21</span>Minutes
+                        </li>
+                        <li>
+                            <span id="seconds">50</span>Seconds
+                        </li>
+                    </ul>
+                </div>
+                <button type="button" class="btn btn-outline-light mt-3 w-50 rounded-4 ">GET AT ONLY $158.00</button>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Customer Say! start -->
+    <div class="container-fluid py-5">
+        <h2 class="text-center fw-bold">Customer Say!</h2>
+        <p class="text-center text-muted">Customers love our products and we always strive to please them all.</p>
+
+        <div class="row g-4 mt-4">
+
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-md-4 ">
+                        <div class="customer-card ">
+                            <img src="./images/fsr_6.webp" width="100%" height="350px" alt="Customer 1">
+                        </div>
+                    </div>
+                    <div class="col-md-8 ">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="mt-2">Carie-Gosée H. <span class="verified-buyer">✔ Verified Buyer</span>
+                                </h5>
+                                <p class="mt-3">
+                                    My experience with Rokan has been absolutely amazing!!! I love love love their
+                                    service
+                                    so much!! I have ordered twice from their website already and they haven’t let me
+                                    down!!!
+                                </p>
+
+
+                            </div>
+                            <hr>
+                            <div class="col-md-12">
+                                <div class="row">
+                                    <div class="col-md-4 ">
+                                        <img src="./images/fashion_products_16_2_301fd34b-9f93-4ed5-9f7d-2a0181a4e735.webp"
+                                            width="50%" alt="">
+                                    </div>
+                                    <div class="col-md-8 ">
+                                        <p class="fw-bold align-items-center"> Wrapover Shirt Dress </p>
+                                        <p class="fw-bold align-items-center">$145.00 </p>
+                                    </div>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-md-6 row">
+                <div class="col-md-4">
+                    <div class="customer-card">
+                        <video controls="true" loop="true" muted="true" playsinline="true" autoplay="true"
+                            src="images/video/a5414a4d1fa44690848742ea3fc8125c.HD-1080p-2.5Mbps-41117951.mp4 "
+                            width="100%"></video>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="col-md-12">
+                        <h5 class="mt-2">Carie-Gosée H. <span class="verified-buyer">✔ Verified Buyer</span></h5>
+                        <p class="mt-3">
+                            My experience with Rokan has been absolutely amazing!!! I love love love their service
+                            so much!! I have ordered twice from their website already and they haven’t let me
+                            down!!!
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="col-md-12">
+                        <div class="row align-items-center ">
+                            <div class="col-md-4  ">
+                                <img src="./images/fashion_products_26_3.webp" width="50%" alt="">
+                            </div>
+                            <div class="col-md-8  ml-5">
+                                <p class="fw-bold align-items-center"> Gathered-sleeve Blazer </p>
+                                <p class="fw-bold align-items-center">$310.00 </p>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    <!-- Customer Say! end -->
+
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 philosophy-section">
+                <h2 class="fw-bold">Our philosophy</h2>
+                <p>
+                    Our journey is driven by a passion for creativity, a steadfast commitment to sustainability, and a
+                    deep desire to empower every individual who wears our pieces.
+                    We aim to craft designs that not only make a statement but also inspire confidence, allowing you to
+                    express your unique style with pride and purpose.
+                </p>
+                <button class="btn btn-custom philosophy-btn">READ MORE</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer start -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Company Information -->
+                <div class="col-lg-4 mb-4">
+                    <h5 class="fw-bold">ROKAN</h5>
+                    <p>Experience the perfect fusion of style and luxury, where elegance meets sophistication in
+                        every
+                        detail.</p>
+                    <p><strong>Phone:</strong> 9399641022</p>
+                    <p><strong>Address:</strong>3/25 chhatrashal phase-2, Bhopal/p>
+                    <p><strong>Email:</strong> luckysahu@gmail.com</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-youtube"></i></a>
+                        <a href="#"><i class="bi bi-twitter"></i></a>
+                        <a href="#"><i class="bi bi-facebook"></i></a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div class="col-lg-2 mb-4">
+                    <h5 class="fw-bold">Our Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Stores</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Size Guide</a></li>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Timeline</a></li>
+                    </ul>
+                </div>
+
+                <!-- Customer Service -->
+                <div class="col-lg-2 mb-4">
+                    <h5 class="fw-bold">Customer Service</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Theme FAQs</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Advanced Search</a></li>
+                        <li><a href="#">Store Locations</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-lg-4">
+                    <h5 class="fw-bold">Sign Up To Newsletter</h5>
+                    <p>Sign up for exclusive updates, new arrivals & insider-only discounts.</p>
+                    <form class="d-flex">
+                        <input type="email" class="form-control me-2" placeholder="Enter your email...">
+                        <button class="btn btn-light" type="submit">Subscribe</button>
+                    </form>
+                    <small class="d-block mt-2">
+                        ***By entering your email, you accept the <a href="#" class="text-white">terms and
+                            conditions</a> and the <a href="#" class="text-white">privacy policy</a>.
+                    </small>
+                </div>
+            </div>
+            <hr>
+            <!-- Payment Icons -->
+            <div class="text-center mt-4">
+                <div class="payment-icons">
+                    <!-- <img src="  " alt="Visa"> -->
+                    <!-- <img src="  " alt="PayPal"> -->
+                    <!-- <img src="  " alt="MasterCard"> -->
+                    <!-- <img src="  " alt="Amex"> -->
+                    <!-- <img src="  " alt="JCB"> -->
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="text-center mt-3">
+                <small>© 2024 lokesh store. All rights reserved.</small>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="./index.js"></script>
+
+</html>

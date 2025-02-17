@@ -1,0 +1,496 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Helvetica', Arial, sans-serif;
+
+}
+
+/* .off{
+    justify-content: space-between;
+    padding: ;
+} */
+ .card-img:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+ }
+ .card-btn{
+    position: absolute;
+    top: 90%;
+    left: 10%;
+    width: 80%;
+    border-radius: 25px;
+    background-color: #ffffffac;
+ }
+.offer1 {
+
+    background-image: url('./images/fsr_1.webp' );
+    
+    padding: 40px;
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+    background-position: center;
+    color: white;
+    height: 300px;
+    border-radius: 25px; 
+
+
+}
+.offer1 {
+    position: relative;
+    padding: 40px;
+    height: 300px;
+    border-radius: 25px;
+    color: white;
+    overflow: hidden;
+}
+
+.offer1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./images/fsr_1.webp');
+    background-color: #02010117;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.2; /* Adjust opacity as needed */
+    z-index: -1;
+}
+
+
+.offer2 {
+    padding: 40px;
+    background-image: url('./images/fsr_2.webp');
+    background-size: cover;
+    transition: transform 0.3s ease-in-out;
+    background-position: center;
+    color: white;
+    height: 300px;
+    border-radius: 25px; 
+    background-color: #00000051;
+}
+
+.offer2-text :hover{
+    transform: scale(1.1);
+ }
+/* .offer2-text{
+    background-color: #0000002d;
+} */
+
+
+/* Hover Effects for Cards */
+.Bestsellers:hover {
+    background-size: cover;
+    background-position: center;
+    transition:  3s ease-in-out;
+}
+/* Bestseller Hover Effects */
+.best1:hover { background-image: url('./images/fashion_products_20_4.webp'); }
+.best2:hover { background-image: url('./images/fashion_products_19_8.webp'); }
+.best3:hover { background-image: url('./images/fashion_products_5_4.webp'); }
+.best4:hover { background-image: url('./images/fashion_products_19_8.webp'); }
+.best5:hover { background-image: url('./images/fashion_products_7_4.webp'); }
+.best6:hover { background-image: url('./images/fashion_products_14_6.webp'); }
+.best7:hover { background-image: url('./images/fashion_products_22_11.webp'); }
+.best8:hover { background-image: url('./images/fashion_products_11_4.webp'); }
+
+
+/* General Card Styling */
+.Bestsellers {
+    position: relative;
+    overflow: hidden;
+    color: white;
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.Bestsellers:hover img {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.Bestsellers .btn {
+    position: relative;
+    z-index: 2;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+} 
+
+.Bestsellers img {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.Bestsellers:hover .btn {
+    opacity: 1;
+    visibility: visible;
+
+}
+
+
+.Bestsellers .btn {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+
+.color-option {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+
+.product-rating i {
+    font-size: 14px;
+    margin-right: 2px;
+}
+
+.rating {
+    color: #000;
+}
+
+.offer3,
+.offer4 {
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    color: white;
+    height: 450px;
+    border-radius: 25px;
+
+    /* Center content using Flexbox */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: bottom;
+    text-align: left;
+}
+
+.offer3 {
+    background-image: url('./images/fsr_3.webp');
+}
+
+.offer4 {
+    background-image: url('./images/fsr_4.webp');
+}
+
+/* Optional Styling for Headings and Text */
+.offer3 h3,
+.offer4 h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.offer3 p,
+.offer4 p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.offer-badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.wishlist-icon {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 40px;
+    color: #090707;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: white;  
+    border-radius: 50px; 
+    text-align: center;
+
+}
+/* coundown  start*/
+.cont-img {
+    height: 600px;
+    background-image: url('./images/fsr_5.webp');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+}
+
+.coundown-time {
+
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.coundown-time h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.coundown-time p {
+    font-size: 1.2rem;
+}
+
+#countdown ul {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 0;
+    margin: 1.5rem 0 0;
+    list-style-type: none;
+}
+
+#countdown li {
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+    border: 1px solid white;
+    border-radius: 8px;
+    min-width: 80px;
+
+}
+
+#countdown li span {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #ffffff;
+   
+}
+
+.count-btn {
+    margin-top: 1.5rem;
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+    border-radius: 30px;
+    background-color: #ff5733;
+    border: none;
+    color: #fff;
+}
+
+.count-btn:hover {
+    background-color: #ff2a00;
+}
+
+
+
+
+
+
+.philosophy-section {
+    text-align: center;
+    padding: 60px 20px;
+}
+.philosophy-btn {
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 10px 30px;
+    font-weight: bold;
+}
+.philosophy-btn:hover {
+    background-color: #333;
+}
+/*  customer start */
+
+/* about us  */
+.hero-img {
+    background-image: url(./images/about/bn_aboutus.jpg);
+    height: 50vh;
+    background-attachment: fixed;
+    text-align: center;
+ }
+  .heading-text {
+    color: white;
+    padding-top: 100px;
+
+}
+.mybtn{
+  background-color: rgb(0, 0, 0);
+color:rgb(255, 255, 255) !important;
+border: 2px solid #fff ;
+border-radius: 30px !important;
+}
+.mybtn:hover{
+background-color: rgb(255, 255, 255) !important;
+color:black !important;
+}
+.about{
+  height: 65vh auto;
+  vertical-align: middle;
+}
+.about-text{
+  padding-top: 70px;
+
+  
+  }
+.about-{
+    font-weight: 600;
+}
+.about-img img{
+ border-radius: 20px;
+ height: 80%;
+    width: 100%;
+    
+}
+@media (max-width:767) {
+  .about{
+    height: 100vh;
+    vertical-align: middle;
+  }
+  .about-text{
+    padding-top: 10px;
+    }
+}
+
+
+.baner-img {
+
+    background-image: url(./images/about/banner-about-testi.jpg);
+    height: 75vh;
+    background-attachment: fixed;
+    padding-top: 10%;
+}
+.baner-img h2, .baner-img p{
+    color: white;
+    text-align: center;
+}
+
+
+
+  .testimonial-section .carousel-item {
+    padding: 3rem 1rem;
+  }
+
+  .testimonial-section h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+
+  .testimonial-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .testi{
+    text-align: center;
+    align-items: center;
+  }
+  .testimonial-profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+    border: 3px solid #fff;
+    
+  }
+
+
+  .testimonial-content h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+
+  .testimonial-stars {
+    color: #ffc107;
+  }
+
+  .carousel-indicators [data-bs-target] {
+    background-color: #fff;
+    margin-top: -40px !important;
+  }
+
+
+
+  /* contact  page*/
+
+
+ 
+
+.contact-form {
+    /* max-width: 700px; */
+    margin: 50px auto;
+    padding: 20px;
+}
+.form-control {
+    border-radius: 25px;
+    padding: 10px;
+}
+.form-btn {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+}
+.form-btn:hover {
+    background-color: #333;
+}
+
+
+
+
+/* footer section */
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #fff;
+}
+
+.footer .form-control {
+  border-radius: 50px;
+  padding: 0.6rem 1.5rem;
+}
+
+.footer .btn {
+  border-radius: 50px;
+}
+
+.payment-icons img {
+  max-height: 30px;
+  margin-right: 1rem;
+}
